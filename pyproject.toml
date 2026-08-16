@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "better-docx"
+version = "1.0.0"
+description = "基于 python-docx 的 Word 文档高级处理库：原生表格、图片插入、分节排版、目录域、文档解析与精确定位"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [{ name = "Wersky", email = "3347783467@qq.com" }]
+dependencies = ["python-docx>=1.1.0"]
+keywords = ["docx", "word", "python-docx", "office", "table", "document", "cjk"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing",
+    "Topic :: Office/Business",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["better_docx"]
