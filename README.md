@@ -1,5 +1,7 @@
 # better-docx
 
+**[English](README_EN.md) | 中文**
+
 > 基于 [python-docx](https://github.com/python-openxml/python-docx) 的 Word 文档高级处理库 —— 用 42 个函数覆盖「表格、图片、排版、分节、目录、解析、定位」全流程，产出**真正的原生 Word 对象**（可编辑表格 `<w:tbl>`、嵌入图片），而不是文本符号模拟。
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
