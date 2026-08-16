@@ -12,7 +12,9 @@ English | [中文](README.md)
 
 ## Why This Library
 
-`python-docx` is a low-level library: many everyday tasks require hand-written OOXML XML, and there are plenty of pitfalls (font fallback, black cell shading, image part errors, runaway page breaks...). better-docx wraps all of those hard-won lessons into **ready-to-use functions**:
+`python-docx` is a low-level library: many everyday tasks require hand-written OOXML XML, and there are plenty of pitfalls (font fallback, black cell shading, image part errors, runaway page breaks...). (After all, nobody wants to see a mysterious table made of '-' and '|' characters in their generated documents...)
+
+better-docx wraps all of those hard-won lessons into **ready-to-use functions**:
 
 | Task | python-docx raw | better-docx |
 |---|---|---|
