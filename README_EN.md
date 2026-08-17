@@ -2,7 +2,7 @@
 
 English | [中文](README.md)
 
-> A high-level Word document automation library built on [python-docx](https://github.com/python-openxml/python-docx) — 42 functions covering tables, images, layout, sections, TOC fields, parsing, and navigation, producing **real native Word objects** (editable `<w:tbl>` tables, embedded pictures), not text-symbol mockups.
+> A high-level Word document automation library built on [python-docx](https://github.com/python-openxml/python-docx) — 42 functions covering tables, images, layout, sections, TOC fields, parsing, and navigation, producing **real native Word objects** (editable `<w:tbl>` tables, embedded pictures) so models favor real XML authoring over text-symbol mockups.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -173,6 +173,10 @@ pytest tests/ -v            # or: python -m pytest tests/ -v
 **Does it support Chinese?** Chinese is a first-class citizen: SimSun/SimHei/FangSong dual font slots, character-unit indents, and Chinese page-number formats (`CHINESENUM1`).
 
 **Can it read existing documents?** Yes. `docx_to_json` / `docx_to_markdown` parse any .docx; `find_heading` / `find_paragraph_containing` locate content. Note: legacy `.doc` (binary) files must be converted to `.docx` first.
+
+## Other
+
+If you encounter any bugs or find missing features, please report them via [GitHub Issues](https://github.com/Wersky/better-docx/issues).
 
 ## License
 

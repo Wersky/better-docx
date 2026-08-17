@@ -2,7 +2,7 @@
 
 **[English](README_EN.md) | 中文**
 
-> 基于 [python-docx](https://github.com/python-openxml/python-docx) 的 Word 文档高级处理库 —— 用 42 个函数覆盖「表格、图片、排版、分节、目录、解析、定位」全流程，产出**真正的原生 Word 对象**（可编辑表格 `<w:tbl>`、嵌入图片），而不是文本符号模拟。
+> 基于 [python-docx](https://github.com/python-openxml/python-docx) 的 Word 文档高级处理库 —— 用 42 个函数覆盖「表格、图片、排版、分节、目录、解析、定位」全流程，产出**真正的原生 Word 对象**（可编辑表格 `<w:tbl>`、嵌入图片），使模型更偏向于使用xml编写，而不是文本符号模拟。
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -173,6 +173,10 @@ pytest tests/ -v            # 或 python -m pytest tests/ -v
 **支持中文吗？** 内置对中文的一等支持：宋体 / 黑体 / 仿宋双字体槽、字符单位缩进、中文页码格式（`CHINESENUM1`）。
 
 **能读已有文档吗？** 能。`docx_to_json` / `docx_to_markdown` 解析任意 docx；`find_heading` / `find_paragraph_containing` 定位；注意 `.doc`（旧二进制）需先转 `.docx`。
+
+## 其他
+
+如果有遇到bug，亦或缺乏某些功能，请您及时反馈
 
 ## License
 
